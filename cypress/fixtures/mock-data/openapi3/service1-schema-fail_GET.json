@@ -1,0 +1,24 @@
+{
+    "status": 200,
+    "headers": {
+        "content-type": "application/json"
+    },
+    "body": {
+        "id": "123e4567-e89b-12d3-a456-426614174000",
+        "name": null,
+        "status": "Lost",
+        "email": "invalid-email-format",
+        "isActive": true,
+        "age": 30,
+        "tags": [
+            "tag1",
+            2,
+            "tag3"
+        ],
+        "preferences": {
+            "notifications": "yes",
+            "theme": "dark",
+            "itemsPerPage": 20
+        }
+    }
+}
