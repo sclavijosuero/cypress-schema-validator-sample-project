@@ -1,6 +1,6 @@
 {
   "name": "cypress-schema-validator-sample-project",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Examples for CYPRESS-SCHEMA-VALIDATOR Plugin",
   "main": "index.js",
   "scripts": {
@@ -25,11 +25,8 @@
   },
   "homepage": "https://github.com/sclavijosuero/cypress-schema-validator-sample-project#readme",
   "devDependencies": {
-    "@bahmutov/cy-api": "^2.2.8",
-    "cypress": "^13.17.0",
-    "cypress-schema-validator": "^1.0.1"
-  },
-  "dependencies": {
-    "cypress-plugin-api": "^2.11.2"
+    "@bahmutov/cy-api": "^2.3.0",
+    "cypress": "^15.16.0",
+    "cypress-schema-validator": "^2.0.0"
   }
 }

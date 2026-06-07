@@ -1,10 +1,8 @@
 /// <reference types="cypress" />
 
-import 'cypress-plugin-api'
-
 import petstoreSchema from '../fixtures/schemas/petstore-swagger2-schema-errors.json'
 
-describe(`Petstore Swagger2 Test Suite - 'cypress-plugin-api' cy.api() `, () => {
+describe(`Petstore Swagger2 Test Suite - Standard cy.request) `, () => {
     
     it(`Test will FAIL - Swagger2 Schema Validation - Use Case: "/pet/findByStatus?status=pending" - "get" - 200`, () => {
         const findByStatusReq = {
